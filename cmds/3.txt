@@ -1,0 +1,13 @@
+cat question.txt > outfile.txt
+ls -a >hidden.txt
+ls -ap | grep -v / | egrep "^\." > hide.txt
+chmod u+w file
+chmod u-x file
+ln hide.txt allhide
+ls -l hide.txt allhide
+ln -s test1.txt test2
+ls -l test1.txt test2
+cat >> name.txt  
+tr a-z A-Z < name.txt 
+cat name.txt | cut -c 1,10
+cat name.txt | uniq -c

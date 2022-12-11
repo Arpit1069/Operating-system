@@ -1,0 +1,10 @@
+mv a.txt b.txt >> outfile.txt
+cat name.txt | grep "[a-z][a-z][a-z][a-z]" >>b.txt
+alias ls="ls -a"
+wc -w b.txt
+
+read = 4
+write = 2
+execute = 1
+
+user-group-others

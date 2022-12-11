@@ -1,0 +1,6 @@
+ls -1tr > test.txt
+grep '[0-9]' file
+chmod u+x-r test.txt 
+alias rm="rm -i"
+who | wc -l
+ 

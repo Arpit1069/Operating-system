@@ -1,0 +1,11 @@
+mv a.txt b.txt >> outfile.txt
+ls -a >hidden.txt
+ls -ap | grep -v / | egrep "^\." > hide.txt
+ln hide.txt allhide
+ls -l hide.txt allhide
+ln -s test1.txt test2
+ls -l test1.txt test2
+cat >> name.txt  
+tr a-z A-Z < name.txt 
+cat name.txt | cut -c 2,3
+cat name.txt | uniq -c
